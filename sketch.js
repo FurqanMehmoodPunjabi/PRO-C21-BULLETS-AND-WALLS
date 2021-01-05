@@ -57,5 +57,6 @@ function (hasCollided(lbullet,lwall))
   {
     return true
   }
-  return false;
+  else{return false
+      }
 }
