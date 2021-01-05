@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(1600,400);
-  
+  thickness=random(22,83)
   wall=createSprite(1200,200,thickness,height/2)
   bullet=createSprite(50, 200, 50, 50);
   speed=random(223,321)
@@ -10,7 +10,6 @@ function setup() {
 
 var wall,thickness;
 var bullet,speed,weight;
-thickness=random(22,83)
 
 function draw() {
   background(255,255,255);
@@ -50,8 +49,7 @@ if(hasCollided(bullet,wall))
   
 }
 
-
-Function (hasCollided(Lbullet,Lwall))
+function (hasCollided(lbullet,lwall))
 {
   bulletRightEdge=lbullet.x+lbullet.width;
   wallLeftEdge=lwall.x;
