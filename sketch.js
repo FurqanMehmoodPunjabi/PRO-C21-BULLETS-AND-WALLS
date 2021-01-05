@@ -49,7 +49,7 @@ if(hasCollided(bullet,wall))
   
 }
 
-function (hasCollided(lbullet,lwall))
+function hasCollided(lbullet,lwall)
 {
   bulletRightEdge=lbullet.x+lbullet.width;
   wallLeftEdge=lwall.x;
